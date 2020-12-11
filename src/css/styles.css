@@ -1,0 +1,290 @@
+body{
+    background-image: url("../img/background.png");
+}
+
+.hidden{
+    display: none;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+}
+
+.createMenu{
+    margin-top: 150px;
+}
+
+.element{
+    margin: 0 auto;
+    display: flex;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.container-fluid{
+    position: relative;
+    padding-top: 25px;
+    /* background-color: transparent; */
+}
+
+.playerInfo{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(72, 105, 128, 0.9);
+    width: 300px;
+    height: 850px;
+}
+
+.plateau{
+    position: absolute;
+    top: 50px;
+    left: 342px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(72, 105, 128, 0.9);
+    width: 1235px;
+    height: 250px;
+}
+
+.action{
+    position: absolute;
+    top: 313px;
+    left: 342px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(72, 105, 128, 0.2);
+    width: 1235px;
+    height: 300px;
+}
+
+.log{
+    position: absolute;
+    top: 626px;
+    left: 342px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(72, 105, 128, 0.9);
+    width: 1235px;
+    height: 249px;
+}
+
+.shop{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(72, 105, 128, 0.9);
+    width: 300px;
+    height: 850px;
+}
+
+.playerInfo h2:nth-child(1){
+    padding-top: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFC399;
+}
+
+.playerInfo h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.playerInfo .infoList{
+    /* border: 1px solid black; */
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.playerInfo .infoList li{
+    margin-top: 5px;
+}
+
+.playerInfo .infoList .content{
+    /* border: 1px solid black; */
+    width: 142px;
+}
+
+.playerInfo .infoList h4{
+    text-align: center;
+}
+
+.playerInfo .infoList .progressbar{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 8px;
+    width: 175px;
+    height: 15px;
+}
+
+.playerInfo .infoList .progressbar .actualProgress{
+    border-radius: 5px;
+    height: 15px;
+    background-color: #EFC2F8;
+}
+
+.playerInfo .infoList li:nth-of-type(2) .progressbar .actualProgress{
+    background-color: #44DEEF;
+}
+
+.playerInfo .infoList li{
+    display: flex;
+}
+
+.action .preCbt{
+    /* border: 1px solid black; */
+    padding-top: 130px;
+    width: 250px;
+    margin: auto;
+}
+
+.action .cbt{
+    /* border: 1px solid black; */
+    /* padding-top: 130px; */
+    width: 171px;
+    margin: 0 auto;
+}
+
+.action .preCbt button{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.log .writableZone{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 950px;
+    height: 200px;
+    overflow:auto
+}
+
+.log .writableZone p{
+    margin: 0;
+}
+
+.plateau .fightzone{
+    position: relative;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 23px;
+    width: 1200px;
+
+}
+
+.plateau .fightzone img{
+    position: absolute;
+    /* border: 1px solid black; */
+}
+
+.plateau .fightzone img:nth-child(1){
+    left: 0;
+    /* width: 383px; */
+}
+
+.plateau .fightzone img:nth-child(2){
+    right: 0;
+    width: 196px;
+    transform: scaleX(-1);
+}
+
+.cbt button{
+    border: none;
+}
+
+#btnRun{
+    background-color: #343A40;
+}
+
+#btnRun:hover{
+    background-color: #343A40;
+}
+
+#btnRun:focus{
+    background-color: #343A40;
+    border: none;
+    transition: none;
+}
+
+#btnAtk{
+    background-color: rgba(72, 105, 128, 1);
+}
+
+#btnAtk:hover{
+    background-color: rgba(72, 105, 128, 1);
+}
+
+#btnAtk:focus{
+    background-color: rgba(72, 105, 128, 1);
+    border: none;
+    transition: none;
+}
+/* #5081b1 */
+.btn-charge{
+    margin-top: 5px;
+    color: white;
+    background-color: #2637c9;
+}
+
+.btn-charge:hover{
+    color: white;
+    background-color: #2637c9;
+}
+
+.btn-charge:focus{
+    background-color: #2637c9;
+    border: none;
+    transition: none;
+}
+
+#pdvProgressbar{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid red;
+    width: 168px;
+    height: 15px;
+    right: 14px;
+}
+
+#pdvProgressbar div{
+    border-radius: 5px;
+    height: 15px;
+    background-color: red;
+}
+
+.shopContent{
+    padding-top: 75px;
+    width: 200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.shopContent li img{
+    cursor: pointer;
+}
+
+.card{
+    position: absolute;
+    background-color: rgba(72, 105, 128, 0.9);
+    top: 18px;
+    left: 807px;
+    text-align: center;
+}
+
+.card .card-content{
+    position: relative;
+    width: 300px;
+    
+}
+
+.closeCard{
+    position: absolute;
+    top: -80px;
+    width: 1994px;
+    left: -300%;
+    height: 957px;
+    /* border: 1px solid black; */
+}
